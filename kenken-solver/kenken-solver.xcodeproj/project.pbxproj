@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF4B56D2219DDC7E000E6059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B56D1219DDC7E000E6059 /* AppDelegate.swift */; };
+		AF4B56D4219DDC7E000E6059 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4B56D3219DDC7E000E6059 /* art.scnassets */; };
+		AF4B56D6219DDC7E000E6059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B56D5219DDC7E000E6059 /* ViewController.swift */; };
+		AF4B56D9219DDC7E000E6059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4B56D7219DDC7E000E6059 /* Main.storyboard */; };
+		AF4B56DB219DDC7F000E6059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4B56DA219DDC7F000E6059 /* Assets.xcassets */; };
+		AF4B56DE219DDC7F000E6059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4B56DC219DDC7F000E6059 /* LaunchScreen.storyboard */; };
+		AF4B56E9219DDC7F000E6059 /* kenken_solverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B56E8219DDC7F000E6059 /* kenken_solverTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF4B56E5219DDC7F000E6059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF4B56C6219DDC7E000E6059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF4B56CD219DDC7E000E6059;
+			remoteInfo = "kenken-solver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF4B56CE219DDC7E000E6059 /* kenken-solver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kenken-solver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4B56D1219DDC7E000E6059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF4B56D3219DDC7E000E6059 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		AF4B56D5219DDC7E000E6059 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF4B56D8219DDC7E000E6059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF4B56DA219DDC7F000E6059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF4B56DD219DDC7F000E6059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF4B56DF219DDC7F000E6059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4B56E4219DDC7F000E6059 /* kenken-solverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kenken-solverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4B56E8219DDC7F000E6059 /* kenken_solverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kenken_solverTests.swift; sourceTree = "<group>"; };
+		AF4B56EA219DDC7F000E6059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF4B56CB219DDC7E000E6059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4B56E1219DDC7F000E6059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF4B56C5219DDC7E000E6059 = {
+			isa = PBXGroup;
+			children = (
+				AF4B56D0219DDC7E000E6059 /* kenken-solver */,
+				AF4B56E7219DDC7F000E6059 /* kenken-solverTests */,
+				AF4B56CF219DDC7E000E6059 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF4B56CF219DDC7E000E6059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF4B56CE219DDC7E000E6059 /* kenken-solver.app */,
+				AF4B56E4219DDC7F000E6059 /* kenken-solverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF4B56D0219DDC7E000E6059 /* kenken-solver */ = {
+			isa = PBXGroup;
+			children = (
+				AF4B56D1219DDC7E000E6059 /* AppDelegate.swift */,
+				AF4B56D3219DDC7E000E6059 /* art.scnassets */,
+				AF4B56D5219DDC7E000E6059 /* ViewController.swift */,
+				AF4B56D7219DDC7E000E6059 /* Main.storyboard */,
+				AF4B56DA219DDC7F000E6059 /* Assets.xcassets */,
+				AF4B56DC219DDC7F000E6059 /* LaunchScreen.storyboard */,
+				AF4B56DF219DDC7F000E6059 /* Info.plist */,
+			);
+			path = "kenken-solver";
+			sourceTree = "<group>";
+		};
+		AF4B56E7219DDC7F000E6059 /* kenken-solverTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF4B56E8219DDC7F000E6059 /* kenken_solverTests.swift */,
+				AF4B56EA219DDC7F000E6059 /* Info.plist */,
+			);
+			path = "kenken-solverTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF4B56CD219DDC7E000E6059 /* kenken-solver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4B56ED219DDC7F000E6059 /* Build configuration list for PBXNativeTarget "kenken-solver" */;
+			buildPhases = (
+				AF4B56CA219DDC7E000E6059 /* Sources */,
+				AF4B56CB219DDC7E000E6059 /* Frameworks */,
+				AF4B56CC219DDC7E000E6059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kenken-solver";
+			productName = "kenken-solver";
+			productReference = AF4B56CE219DDC7E000E6059 /* kenken-solver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF4B56E3219DDC7F000E6059 /* kenken-solverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4B56F0219DDC7F000E6059 /* Build configuration list for PBXNativeTarget "kenken-solverTests" */;
+			buildPhases = (
+				AF4B56E0219DDC7F000E6059 /* Sources */,
+				AF4B56E1219DDC7F000E6059 /* Frameworks */,
+				AF4B56E2219DDC7F000E6059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF4B56E6219DDC7F000E6059 /* PBXTargetDependency */,
+			);
+			name = "kenken-solverTests";
+			productName = "kenken-solverTests";
+			productReference = AF4B56E4219DDC7F000E6059 /* kenken-solverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF4B56C6219DDC7E000E6059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Reilly Freret";
+				TargetAttributes = {
+					AF4B56CD219DDC7E000E6059 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					AF4B56E3219DDC7F000E6059 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AF4B56CD219DDC7E000E6059;
+					};
+				};
+			};
+			buildConfigurationList = AF4B56C9219DDC7E000E6059 /* Build configuration list for PBXProject "kenken-solver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF4B56C5219DDC7E000E6059;
+			productRefGroup = AF4B56CF219DDC7E000E6059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF4B56CD219DDC7E000E6059 /* kenken-solver */,
+				AF4B56E3219DDC7F000E6059 /* kenken-solverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF4B56CC219DDC7E000E6059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4B56D4219DDC7E000E6059 /* art.scnassets in Resources */,
+				AF4B56DE219DDC7F000E6059 /* LaunchScreen.storyboard in Resources */,
+				AF4B56DB219DDC7F000E6059 /* Assets.xcassets in Resources */,
+				AF4B56D9219DDC7E000E6059 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4B56E2219DDC7F000E6059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF4B56CA219DDC7E000E6059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4B56D6219DDC7E000E6059 /* ViewController.swift in Sources */,
+				AF4B56D2219DDC7E000E6059 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4B56E0219DDC7F000E6059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4B56E9219DDC7F000E6059 /* kenken_solverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF4B56E6219DDC7F000E6059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF4B56CD219DDC7E000E6059 /* kenken-solver */;
+			targetProxy = AF4B56E5219DDC7F000E6059 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF4B56D7219DDC7E000E6059 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4B56D8219DDC7E000E6059 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF4B56DC219DDC7F000E6059 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4B56DD219DDC7F000E6059 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF4B56EB219DDC7F000E6059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF4B56EC219DDC7F000E6059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF4B56EE219DDC7F000E6059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQYA2A8JRS;
+				INFOPLIST_FILE = "kenken-solver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freret.kenken-solver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF4B56EF219DDC7F000E6059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQYA2A8JRS;
+				INFOPLIST_FILE = "kenken-solver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freret.kenken-solver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF4B56F1219DDC7F000E6059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQYA2A8JRS;
+				INFOPLIST_FILE = "kenken-solverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freret.kenken-solverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kenken-solver.app/kenken-solver";
+			};
+			name = Debug;
+		};
+		AF4B56F2219DDC7F000E6059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQYA2A8JRS;
+				INFOPLIST_FILE = "kenken-solverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freret.kenken-solverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kenken-solver.app/kenken-solver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF4B56C9219DDC7E000E6059 /* Build configuration list for PBXProject "kenken-solver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4B56EB219DDC7F000E6059 /* Debug */,
+				AF4B56EC219DDC7F000E6059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4B56ED219DDC7F000E6059 /* Build configuration list for PBXNativeTarget "kenken-solver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4B56EE219DDC7F000E6059 /* Debug */,
+				AF4B56EF219DDC7F000E6059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4B56F0219DDC7F000E6059 /* Build configuration list for PBXNativeTarget "kenken-solverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4B56F1219DDC7F000E6059 /* Debug */,
+				AF4B56F2219DDC7F000E6059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF4B56C6219DDC7E000E6059 /* Project object */;
+}
